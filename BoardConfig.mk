@@ -150,6 +150,11 @@ ODM_MANIFEST_366_FILES := $(DEVICE_PATH)/manifest_sdmmagpie.xml
 
 ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest-qva.xml
 
+ODM_MANIFEST_SKUS += \
+    phoenix
+
+ODM_MANIFEST_PHOENIX_FILES := $(DEVICE_PATH)/manifest_phoenix.xml
+
 # LMKD
 TARGET_LMKD_STATS_LOG := true
 
