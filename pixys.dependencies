@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "android_device_xiaomi_sm6150-common",
+    "target_path": "device/xiaomi/sm6150-common"
+  },
+  {
+    "repository": "crdroidandroid/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "remote": "github"
+  },
+  {
+    "repository": "stormbreaker-project/android_kernel_xiaomi_pheonix",
+    "target_path": "kernel/xiaomi/sm6150",
+    "remote": "github"
+  },
+  {
+    "repository": "sarveshrulz/android_vendor_aeonax_ANXCamera",
+    "target_path": "vendor/aeonax/ANXCamera",
+    "remote": "github"
+  },
+  {
+    "repository": "vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "ten-phoenix"
+  },
+]
