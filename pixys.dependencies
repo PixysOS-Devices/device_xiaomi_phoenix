@@ -15,8 +15,7 @@
     "remote": "github"
   },
   {
-    "repository": "vendor_xiaomi",
-    "target_path": "vendor/xiaomi",
-    "branch": "ten-phoenix"
-  },
+    "repository": "vendor_xiaomi_phoenix",
+    "target_path": "vendor/xiaomi/phoenix"
+  }
 ]
