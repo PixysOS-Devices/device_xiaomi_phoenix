@@ -102,7 +102,7 @@ void vendor_load_properties() {
     }
 
     property_override("ro.oem_unlock_supported", "0");
-    property_override("ro.build.description", "coral-user 10 RP1A.201005.004 6782484 release-keys");
+    property_override("ro.build.description", "redfin-user 10 RD1A.201105.003.C1 6886399 release-keys");
     property_override_multifp("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.bootimage.build.fingerprint",
-	    "ro.vendor.build.fingerprint", "ro.odm.build.fingerprint", "google/coral/coral:11/RP1A.201005.004/6782484:user/release-keys");
+	    "ro.vendor.build.fingerprint", "ro.odm.build.fingerprint", "google/redfin/redfin:11/RD1A.201105.003.C1/6886399:user/release-keys");
 }
