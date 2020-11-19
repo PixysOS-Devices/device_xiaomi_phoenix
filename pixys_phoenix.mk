@@ -8,6 +8,7 @@ $(call inherit-product, device/xiaomi/phoenix/device.mk)
 
 # Inherit some common PixysOS stuff.
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixys/CarrierSettings/config.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := pixys_phoenix
@@ -21,7 +22,6 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_USES_CARRIERSETTINGS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DISC="coral-user 11 RP1A.201005.004 6782484 release-keys"
